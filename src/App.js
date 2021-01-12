@@ -7,7 +7,8 @@ import NoMatch from "./pages/NoMatch";
 function App() {
 
   //github pages react router fix
-  const BASE_NAME = "/";
+  //const BASE_NAME = "/";
+  const BASE_NAME = "https://rzelazny.github.io/git-react/";
 
   return (
     <Router basename={`${BASE_NAME}`}>
